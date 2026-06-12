@@ -25,9 +25,8 @@ Metodología	<section>, <ul> y <li>	Presentan la información mediante una lista
 Enlace a Servel	<a>	Permite ingresar desde la página a otro sitio web.
 Parte final	<footer>	Crea el pie de página.
 
-También utilicé clases e identificadores, mediante los atributos class e id, para reconocer y ordenar las distintas secciones de la página.
+También utilicé clases e identificadores mediante los atributos class e id para reconocer y ordenar las distintas secciones de la página.
 
 Sitio publicado
 
 Ver la pieza narrativa en GitHub Pages
-https://liuerick.github.io/Tarea_03/#cambio
