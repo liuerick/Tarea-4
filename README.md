@@ -26,6 +26,8 @@ Etiquetas HTML utilizados
 * footer: muestra el título del proyecto y el botón para volver a la parte superior de la página.
 * class e id: permiten identificar las partes del sitio y conectar los enlaces del menú con cada sección.
 
-Sitio publicado
+Además de las etiquetas solicitadas en la tarea, la inteligencia artificial agregó otros elementos a partir del comando que le pedí para crear un diseño más ordenado. Por ejemplo, usó id="cambio" para conectar el menú con esa sección y class="article-section" para aplicar el mismo formato a distintas partes de la página.
 
-https://liuerick.github.io/Tarea_03/
+También agregó estilos CSS dentro del mismo archivo index.html, por lo que no se creó un archivo aparte llamado style.css. Entre estos estilos se usó padding: 34px; para dejar espacio dentro de los bloques y font-family: "DM Sans", Arial, sans-serif; para definir la tipografía del sitio.
+
+Sitio publicado: https://liuerick.github.io/Tarea_03/
