@@ -1,53 +1,25 @@
-Tarea 03: pieza narrativa en HTML
-
+Tarea 03:
 Proceso
 
-Primero le pedí a ChatGPT distintas ideas de wireframe para ordenar la página. Después elegí una estructura que permitiera mostrar de forma clara el título, la crónica, los gráficos y la metodología.
+Primero le pedí a ChatGPT distintas ideas de wireframe para ordenar la página. Después elegí una estructura que permitiera mostrar de forma clara el título, la crónica, los gráficos y la metodología. Luego revisé que la página cumpliera con los requisitos de la tarea. También le pedí ayuda a ChatGPT para crear el código HTML y fui corrigiendo manualmente algunos detalles que faltaban, como agregar el enlace externo.
 
-Luego revisé que la página cumpliera con los requisitos de la tarea. Después le pedí a ChatGPT que creara el código HTML y corregí manualmente algunos detalles que faltaban, como agregar el enlace externo.
+Durante este proceso aprendí, con ayuda de ChatGPT, para qué sirven varias etiquetas HTML y cómo se usan para ordenar una página. También tuve que pedir ayuda para escribir los ejemplos de código en este README, porque al poner directamente las etiquetas HTML se visualizaban de forma extraña.
 
 Elementos HTML utilizados
 
-La página incluye los elementos solicitados en la pauta:
+Parte de la página	Etiquetas utilizadas	Significado
+Información del sitio	<head>, <title> y <meta>	Guardan el título y la información general de la página.
+Barra superior	<header>, <nav> y <a>	Forman el encabezado, la navegación y los enlaces.
+Portada principal	<section>, <div>, <h1> y <p>	Ordenan la portada, el título principal y la bajada.
+Datos destacados	<section>, <article> y <p>	Agrupan y presentan cifras importantes.
+Navegación lateral	<aside> y <a>	Crean una columna secundaria con accesos a las secciones.
+Crónica	<main>, <section>, <h2> y <p>	Organizan el contenido principal, los subtítulos y los párrafos.
+Gráficos	<figure>, <img> y <figcaption>	Muestran las imágenes y sus descripciones.
+Comparación entre vueltas	<div>, <article>, <h3> y <p>	Agrupan información comparativa en bloques.
+Metodología	<section>, <ul> y <li>	Presentan la información en una lista.
+Enlace a Servel	<a>	Permite ir desde la página a otro sitio web.
+Parte final	<footer>	Crea el pie de página.
 
-* <head> para agregar el título y los metadatos.
-* <h1> y <h2> para los títulos.
-* <p> para los párrafos de la crónica.
-* <div> para agrupar distintas partes de la página.
-* <img> para mostrar los gráficos.
-* <a> para agregar un enlace externo.
-* <ul> y <li> para la lista de la metodología.
-* <header> para el encabezado.
-* <footer> para el pie de página.
-* Clases e identificadores para ordenar las secciones.
+También utilicé clases e identificadores para reconocer y ordenar las distintas secciones del sitio.
 
-Ejemplos
-
-Título y párrafo
-
-* <h1>El voto que no elige presidente</h1>
-* <p>
-* La evolución del voto nulo muestra distintos cambios entre 1989 y 2025.
-* </p>
-
-Imagen
-
-*<img
-*  src="voto_nulo_primera_vs_segunda_vuelta.png"
-*  alt="Gráfico sobre la evolución del voto nulo"
-*>
-
-Enlace externo
-
-* <a href="https://www.servel.cl/" target="_blank">
-*  Sitio oficial del Servicio Electoral de Chile
-* </a>
-
-Lista
-* <ul>
-*  <li>Periodo estudiado: 1989–2025.</li>
-* <li>Fuente principal: Servicio Electoral de Chile.</li>
-* <li>Unidad de análisis: elección presidencial.</li>
-* </ul>
-
-LINK: https://liuerick.github.io/Tarea_03/#cambio
+https://liuerick.github.io/Tarea_03/#cambio
