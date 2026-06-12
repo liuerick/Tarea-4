@@ -1,32 +1,31 @@
-Tarea 03: pieza narrativa en HTML
+Tarea 03: Proceso
 
-Proceso
+Primero le pedí a ChatGPT distintas ideas de wireframe para ordenar la página. Después elegí una estructura que permitiera mostrar de forma clara el título, la crónica, los gráficos y la metodología. Luego revisé que la página cumpliera con los requisitos de la tarea. También le pedí ayuda a ChatGPT para crear el código HTML y corregí manualmente algunos detalles que faltaban, como agregar el enlace externo.
 
-Primero le pedí a ChatGPT distintas ideas de wireframe para ordenar la página. Después elegí una estructura que permitiera mostrar de forma clara el título, la crónica, los gráficos y la metodología.
+Durante este proceso aprendí, con mucha ayuda de ChatGPT, cómo utilizar distintas etiquetas HTML para organizar el contenido de mi página.
 
-Luego revisé que la página cumpliera con los requisitos de la tarea. También le pedí ayuda a ChatGPT para crear el código HTML y corregí manualmente algunos detalles que faltaban, como agregar el enlace externo.
+También tuve que pedir ayuda para escribir este README, porque al escribir directamente las etiquetas HTML se visualizaban de forma extraña.
 
-Durante este proceso aprendí, con ayuda de ChatGPT, para qué sirven distintas etiquetas HTML y cómo se utilizan para ordenar una página.
+Etiquetas HTML utilizados
 
-También tuve que pedir ayuda para escribir este archivo README.md, porque al escribir directamente las etiquetas HTML, GitHub las interpretaba como parte del código y se visualizaban de forma incorrecta.
-
-Elementos HTML utilizados
-
-Parte de la página	Etiquetas utilizadas	Función
-Información del sitio	<head>, <title> y <meta>	Guardan el título y la información general de la página.
-Barra superior	<header>, <nav> y <a>	Crean el encabezado, la navegación y los enlaces.
-Portada principal	<section>, <div>, <h1> y <p>	Organizan la portada, el título principal y la bajada.
-Datos destacados	<section>, <article> y <p>	Agrupan y presentan las cifras principales.
-Navegación lateral	<aside> y <a>	Crean una columna secundaria con enlaces a las secciones.
-Crónica	<main>, <section>, <h2> y <p>	Organizan el contenido principal, los subtítulos y los párrafos.
-Gráficos	<figure>, <img> y <figcaption>	Muestran las imágenes y sus descripciones.
-Comparación entre vueltas	<div>, <article>, <h3> y <p>	Agrupan la información comparativa en bloques.
-Metodología	<section>, <ul> y <li>	Presentan la información mediante una lista.
-Enlace a Servel	<a>	Permite ingresar desde la página a otro sitio web.
-Parte final	<footer>	Crea el pie de página.
-
-También utilicé clases e identificadores mediante los atributos class e id para reconocer y ordenar las distintas secciones de la página.
+* head: contiene el título de la página, el nombre del autor, la descripción y la codificación del sitio.
+* header: muestra la barra superior de la página y el nombre “Narración gráfica”.
+* nav: contiene los enlaces que permiten ir a las secciones Historia, Cambio de tendencia, Factores y Metodología.
+* h1: muestra el título principal “El voto que no elige presidente”.
+* h2 y h3: muestran los títulos y subtítulos de las distintas partes de la crónica.
+* p: muestra la bajada de la portada, los párrafos de la crónica y las explicaciones de los gráficos.
+* div: agrupa elementos como la portada, las cifras destacadas, la crónica y la metodología.
+* section: separa las distintas partes de la historia, como la evolución histórica, la comparación entre vueltas y el cambio de 2025.
+* article: agrupa las cifras destacadas y los bloques que comparan la primera y la segunda vuelta.
+* main: contiene la crónica y todo el contenido principal de la pieza.
+* aside: muestra la columna lateral con los accesos a cada parte de la historia.
+* img: muestra los dos gráficos sobre la evolución del voto nulo.
+* figure y figcaption: agrupan cada gráfico junto con su título y su explicación.
+* ul y li: muestran la lista con la información utilizada para construir la visualización.
+* a: crea los enlaces del menú, el botón para volver al inicio y el enlace externo al sitio de Servel.
+* footer: muestra el título del proyecto y el botón para volver a la parte superior de la página.
+* class e id: permiten identificar las partes del sitio y conectar los enlaces del menú con cada sección.
 
 Sitio publicado
 
-Ver la pieza narrativa en GitHub Pages
+https://liuerick.github.io/Tarea_03/
