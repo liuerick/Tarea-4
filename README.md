@@ -1,119 +1,52 @@
-# Proceso
+Tarea 03: pieza narrativa en HTML
 
-Primero le pedí a ChatGPT que me mostrara distintas ideas de wireframe para ordenar la página. Después elegí una estructura que permitiera mostrar de forma clara el título, la crónica, los gráficos y la metodología.
-
-Luego revisé que la página cumpliera con los requisitos de la tarea, como usar títulos, párrafos, imágenes, enlaces, listas, divisiones, encabezado y pie de página.
-
-Después le pedí a ChatGPT que creara el código HTML. Finalmente, revisé el código y corregí de forma manual algunos detalles que faltaban, como agregar un enlace externo.
 Proceso
 
-Primero le pedí a ChatGPT que me mostrara distintas ideas de wireframe para ordenar la página. Después elegí una estructura que permitiera mostrar de forma clara el título, la crónica, los gráficos y la metodología.
+Primero le pedí a ChatGPT distintas ideas de wireframe para ordenar la página. Después elegí una estructura que permitiera mostrar de forma clara el título, la crónica, los gráficos y la metodología.
 
-Luego revisé que la página cumpliera con los requisitos de la tarea. Después le pedí a ChatGPT que creara el código HTML y finalmente corregí de forma manual algunos detalles, como agregar un enlace externo.
+Luego revisé que la página cumpliera con los requisitos de la tarea. Después le pedí a ChatGPT que creara el código HTML y corregí manualmente algunos detalles que faltaban, como agregar el enlace externo.
 
-Etiquetas utilizadas
+Elementos HTML utilizados
 
-Estructura básica
+La página incluye los elementos solicitados en la pauta:
 
-Usé la estructura principal de un documento HTML:
+* <head> para agregar el título y los metadatos.
+* <h1> y <h2> para los títulos.
+* <p> para los párrafos de la crónica.
+* <div> para agrupar distintas partes de la página.
+* <img> para mostrar los gráficos.
+* <a> para agregar un enlace externo.
+* <ul> y <li> para la lista de la metodología.
+* <header> para el encabezado.
+* <footer> para el pie de página.
+* Clases e identificadores para ordenar las secciones.
 
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <title>Evolución del voto nulo en Chile</title>
-</head>
-<body>
-  Contenido de la página
-</body>
-</html>
+Ejemplos
 
-Metadatos
+Título y párrafo
 
-Dentro de la etiqueta <head> agregué información sobre la página:
-
-<meta charset="UTF-8">
-<meta name="author" content="Erick Liu">
-<meta
-  name="description"
-  content="Narración gráfica sobre la evolución del voto nulo en Chile."
->
-
-Encabezado
-
-Usé <header> para agrupar el inicio de la página:
-
-<header>
-  <h1>El voto que no elige presidente</h1>
-  <p>
-    Evolución del voto nulo en las elecciones presidenciales chilenas.
-  </p>
-</header>
-
-Títulos y párrafos
-
-Para organizar la crónica utilicé títulos y párrafos:
-
-<h2>Una trayectoria lejos de ser estable</h2>
+<h1>El voto que no elige presidente</h1>
 <p>
-  El voto nulo no se comporta de la misma forma en todas las elecciones.
+  La evolución del voto nulo muestra distintos cambios entre 1989 y 2025.
 </p>
 
-Divisiones
-
-Usé <div> para agrupar elementos relacionados:
-
-<div class="intro-stats">
-  <p>3,7% de votos nulos en 1993.</p>
-</div>
-
-Imágenes
-
-Las visualizaciones fueron agregadas con la etiqueta <img>:
+Imagen
 
 <img
   src="voto_nulo_primera_vs_segunda_vuelta.png"
   alt="Gráfico sobre la evolución del voto nulo"
 >
 
-Lista
+Enlace externo
 
-En la metodología utilicé una lista no ordenada:
+<a href="https://www.servel.cl/" target="_blank">
+  Sitio oficial del Servicio Electoral de Chile
+</a>
+
+Lista
 
 <ul>
   <li>Periodo estudiado: 1989–2025.</li>
   <li>Fuente principal: Servicio Electoral de Chile.</li>
   <li>Unidad de análisis: elección presidencial.</li>
 </ul>
-
-Enlace externo
-
-Agregué un enlace hacia el sitio del Servicio Electoral de Chile:
-
-<a
-  href="https://www.servel.cl/"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  Sitio oficial del Servicio Electoral de Chile
-</a>
-
-Clases e identificadores
-
-Usé clases e identificadores para reconocer las distintas partes de la página:
-
-<section class="article-section" id="historia">
-  <h2>Una trayectoria lejos de ser estable</h2>
-</section>
-
-Pie de página
-
-Al final de la página utilicé la etiqueta <footer>:
-
-<footer>
-  <p>
-    Narración gráfica desarrollada para un proyecto de periodismo de datos.
-  </p>
-</footer>
-
-https://liuerick.github.io/Tarea_03/#historia
