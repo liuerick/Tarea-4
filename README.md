@@ -25,28 +25,29 @@ Ejemplos
 
 Título y párrafo
 
-<h1>El voto que no elige presidente</h1>
-<p>
-  La evolución del voto nulo muestra distintos cambios entre 1989 y 2025.
-</p>
+* <h1>El voto que no elige presidente</h1>
+* <p>
+* La evolución del voto nulo muestra distintos cambios entre 1989 y 2025.
+* </p>
 
 Imagen
 
-<img
-  src="voto_nulo_primera_vs_segunda_vuelta.png"
-  alt="Gráfico sobre la evolución del voto nulo"
->
+*<img
+*  src="voto_nulo_primera_vs_segunda_vuelta.png"
+*  alt="Gráfico sobre la evolución del voto nulo"
+*>
 
 Enlace externo
 
-<a href="https://www.servel.cl/" target="_blank">
-  Sitio oficial del Servicio Electoral de Chile
-</a>
+* <a href="https://www.servel.cl/" target="_blank">
+*  Sitio oficial del Servicio Electoral de Chile
+* </a>
 
 Lista
+* <ul>
+*  <li>Periodo estudiado: 1989–2025.</li>
+* <li>Fuente principal: Servicio Electoral de Chile.</li>
+* <li>Unidad de análisis: elección presidencial.</li>
+* </ul>
 
-<ul>
-  <li>Periodo estudiado: 1989–2025.</li>
-  <li>Fuente principal: Servicio Electoral de Chile.</li>
-  <li>Unidad de análisis: elección presidencial.</li>
-</ul>
+LINK: https://liuerick.github.io/Tarea_03/#cambio
